@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  // background: #34495e;
+  background: #191919;
+}
+
+.sigIn-form {
+ width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  input[type = "email"], [type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.25s;
+  }
+
+  input[type = "email"]:focus, [type = "password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+  }
+
+  input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto 20px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 215px;
+  }
+
+  input[type="submit"]:hover {
+    background: #2ecc71;
+  }
+}
+
+.sigIn-form_text {
+  color: rgb(218, 212, 212);
+  font-size: 12px;
+}
+
+.sigIn-form_link {
+  color: #2ecc71;
+  font-size: 12px;
+  text-decoration: none;
+}
+
