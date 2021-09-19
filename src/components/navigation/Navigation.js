@@ -3,7 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 
 import { Routes } from "../../utils/routes";
 
-import "./Navigation.css";
+import "./Navigation.scss";
 
 const Navigation = () => {
   const history = useHistory();
